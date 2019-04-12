@@ -14,8 +14,8 @@ SRC_URI = "git://github.com/ARM-software/arm-trusted-firmware.git;protocol=git;b
 S = "${WORKDIR}/git"
 
 COMPATIBLE_MACHINE = "pine64|sopine-a64"
-PLATFORM_pine64 = "sun50i_a64"
-PLATFORM_sopine-a64 = "sun50i_a64"
+PLATFORM_pine64 = "sun50iw1p1"
+PLATFORM_sopine-a64 = "sun50iw1p1"
 
 # Let the Makefile handle setting up the CFLAGS and LDFLAGS as it is a standalone application
 CFLAGS[unexport] = "1"

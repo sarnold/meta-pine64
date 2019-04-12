@@ -19,5 +19,5 @@ SRC_URI = " \
 KBUILD_DEFCONFIG_sopine-a64 = "defconfig"
 KCONFIG_MODE="--alldefconfig"
 
-COMPATIBLE_MACHINE = "sopine-a64"
+COMPATIBLE_MACHINE = "(pine64|sopine-a64)"
 
